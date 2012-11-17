@@ -1,0 +1,18 @@
+Run <Obey$Dir>.Resources.ResFind MakeLink
+|
+Set MakeLink$Help MakeLinkRes:MakeLink
+Set MakeLink$Version "1.04"
+Set MakeLink$Web "http://www.arcsite.de/hp/bracke/"
+Set MakeLink$Title "MakeLink"
+Set MakeLink$Publisher "Bent Bracke"
+Set MakeLink$Description "Creates application links."
+Run <MakeLink$Dir>.Resources.ReadToken MakeLinkRes:Messages DESCRIPTION
+do Set MakeLink$Description <ReadToken$Value>
+|
+Set MakeLinkSprites 2
+RMEnsure UtilityModule 5.00 Set MakeLinkSprites 1
+RMEnsure UtilityModule 4.00 Set MakeLinkSprites 0
+If <MakeLinkSprites> = 2 Then Iconsprites <MakeLink$Dir>.!Sprites5
+If <MakeLinkSprites> = 1 Then Iconsprites <MakeLink$Dir>.!Sprites4
+If <MakeLinkSprites> = 0 Then Iconsprites <MakeLink$Dir>.!Sprites
+UnSet MakeLinkSprites

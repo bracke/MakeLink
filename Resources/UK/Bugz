@@ -1,0 +1,73 @@
+# This is a Bugz description file
+[*Title]
+MakeLink
+
+[*Info]
+Program: MakeLink
+Distribution: Public
+Version:1.04 (2005-02-19)
+Release: Full public release
+
+[*Mail]
+bbracke@web.de
+
+[*Cat]
+
+
+[*Modules]
+AcornURI
+WindowManager
+MessageTrans
+Toolbox
+Window
+IconBar
+Menu
+ProgInfo
+Scale
+SaveAs
+FileInfo
+ToolAction
+ColourDBox
+ColourMenu
+DCS
+FontDBox
+FontMenu
+PrintDBox
+TextGadgets
+StrongHelp
+
+[*Show]
+MakeLink$Dir
+MakeLinkRes$Path
+Bugz$Dir
+Choices$Dir
+Choices$Path
+Choices$Write
+Wimp$ScrapDir
+StrongHelp$Dir
+ConfiX$Dir
+MakeLink$Help
+MakeLink$Version
+MakeLink$Web
+MakeLink$Title
+MakeLink$Publisher
+MakeLink$Description
+
+[*Cat]
+Please submit as much information about what you were doing, what went
+right and what went wrong.
+
+[Iconbar menu]
+Please write in which submenu the problem occured and if you selected
+any menu entry then please write whether you did that using the mouse or
+with a keyboard shortcut.
+
+[Bug reporting]
+If you have problems using Bugz then please consider whether this is
+caused by MakeLink or by Bugz.
+
+[Manual]
+Please write down any mistake you find in the manual, including spelling
+errors and omissions.
+
+

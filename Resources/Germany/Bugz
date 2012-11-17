@@ -1,0 +1,70 @@
+# This is a Bugz description file
+[*Title]
+MakeLink
+
+[*Info]
+Program: MakeLink
+Distribution: Ohne Einschränkung
+Version:1.04 (2005-02-19)
+Release: Volles Öffentliches Release
+
+[*Mail]
+bbracke@web.de
+
+[*Cat]
+
+
+[*Modules]
+AcornURI
+WindowManager
+MessageTrans
+Toolbox
+Window
+IconBar
+Menu
+ProgInfo
+Scale
+SaveAs
+FileInfo
+ToolAction
+ColourDBox
+ColourMenu
+DCS
+FontDBox
+FontMenu
+PrintDBox
+TextGadgets
+StrongHelp
+
+[*Show]
+MakeLink$Dir
+MakeLinkRes$Path
+Bugz$Dir
+Choices$Dir
+Choices$Path
+Choices$Write
+Wimp$ScrapDir
+StrongHelp$Dir
+ConfiX$Dir
+MakeLink$Help
+MakeLink$Version
+MakeLink$Web
+MakeLink$Title
+MakeLink$Publisher
+MakeLink$Description
+
+[*Cat]
+Bitte den Fehler und die Umstände so genau wie möglich beschreiben.
+
+[Symbolleisten Menü]
+Bitte angeben in welchem Untermenü der Fehler aufgetreten ist und falls
+eine Menüpunkt gewählt wurde dann bitte auch angeben ob das per Maus
+oder Tastaturkürzel geschah.
+
+[Fehlermeldung - Bugz]
+Bei Problemen mit dem erstellen von Fehlermeldungen beachten Sie bitte
+das das Problem auch bei der Bugz Applikation liegen kann.
+
+[Handbuch]
+Bitte jeden Fehler im Handbuch melden - auch sprachliche und
+grammatische Fehler.
